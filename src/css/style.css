@@ -1,0 +1,82 @@
+body {
+  color: #333;    
+}
+
+.container {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;  
+}
+
+input {
+  margin: 5px 0px;
+  width: 95%;
+  padding: 5px;
+}
+
+.checkbox {
+  margin: 0px;
+  width: auto;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  width: 150px;
+}
+
+.calendar-container {
+  width: 320px;
+}
+
+
+
+thead tr:last-child {
+  font-size: small;
+  color: rgb(150, 70, 70);  
+}
+
+thead tr:nth-child(1) td:nth-child(1):hover, thead tr:nth-child(1) td:nth-child(3):hover {
+  cursor: pointer;
+}
+
+.today {
+  background: rgb(220, 0, 0);
+  color: #fff;
+  border-radius: 50%;
+}
+
+.outdated {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.selected {
+  outline: 1px solid rgb(220, 0, 0);
+  border-radius: 50%;
+}
+
+.available {
+  cursor: pointer;
+}
+
+.calendar {
+  width: 150px;
+  font: monospace;
+  line-height: 1.2em;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;  
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+

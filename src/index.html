@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>trip-calendar</title>
+</head>
+<body>
+  <div>
+    <label>Туда и обратно</label> 
+    <input class="checkbox" type="checkbox">
+  </div>
+  <div class="container">    
+    <div class="block there">
+      <label>Туда:</label> 
+      <input onkeydown="return false" class="there-input" type="text" required/>
+    </div>
+    <div class="block back hidden">
+      <label>Обратно:</label> 
+      <input onkeydown="return false" type="text" class="back-input"> 
+    </div>       
+  </div> 
+  <div class="calendar-container">
+    <table class="calendar">
+      <thead>
+        <tr><td class="previous">‹<td class="title" colspan="5"><td class="next">›
+        <tr><td>Пн<td>Вт<td>Ср<td>Чт<td>Пт<td>Сб<td>Вс
+      <tbody>
+    </table>
+  </div> 
+</body>
+</html>
